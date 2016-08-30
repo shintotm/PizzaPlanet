@@ -18,5 +18,22 @@ app.controller('MainController', ['$scope', function($scope) {
 		price: 4.95
 	}
   ];
+  $scope.mains = [
+  {
+		name: 'Chicken Curry Meal',
+		description: 'chicken, rise, gravy',
+		price: 8.00
+  },
+  {
+		name: 'Egg Curry Meal',
+		description: 'egg, rise, gravy',
+		price: 9.00
+  },
+  {
+		name: 'Lamb Curry Meal',
+		description: 'lamb, rise, gravy',
+		price: 9.50
+  }
+  ];
 
 }]);
