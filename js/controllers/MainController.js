@@ -14,7 +14,7 @@ app.controller('MainController', ['$scope', function($scope) {
     },
 	{
 		name: 'Bruschetta',
-		description:"Grilled bread garlic, tomatoes, olive oil.',
+		description: 'Grilled bread garlic, tomatoes, olive oil.',
 		price: 4.95
 	}
   ];
