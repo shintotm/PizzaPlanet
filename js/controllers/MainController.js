@@ -35,5 +35,19 @@ app.controller('MainController', ['$scope', function($scope) {
 		price: 9.50
   }
   ];
+  $scope.extras = [
+  {
+	  name: 'Pickle',
+	  description: 'hot spicy',
+	  price: 0.50
+  },
+ 
+  {
+	  name: 'Roti',
+	  description: 'bread',
+	  price: 0.50
+  }
+  
+  ];
 
 }]);
